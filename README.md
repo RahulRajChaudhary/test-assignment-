@@ -27,7 +27,7 @@ author-royalty-api/
 │
 ├── src/                                 # Source code folder
 │   ├── data/
-│   │   └── seedData.js                  # All starting data (authors, books, sales)
+│   │   └── givenData.js                  # All starting data (authors, books, sales)
 │   │
 │   ├── controllers/
 │   │   ├── authorsController.js         # Logic for author endpoints
@@ -51,7 +51,7 @@ author-royalty-api/
 - Starts the server on port 3000
 - **Only 70 lines!** Very clean and simple
 
-### **src/data/seedData.js** - All Data
+### **src/data/givenData.js** - All Data
 - Authors array
 - Books array
 - Sales array
@@ -94,12 +94,12 @@ author-royalty-api/
 2. Routes it to **routes/authors.js**
 3. Which calls **authorsController.js → getAllAuthors()**
 4. Which uses **helpers.js** to calculate earnings
-5. Which reads data from **seedData.js**
+5. Which reads data from **givenData.js**
 6. Response sent back!
 
 **Visual Flow:**
 ```
-Request → index.js → routes/authors.js → authorsController.js → helpers.js → seedData.js
+Request → index.js → routes/authors.js → authorsController.js → helpers.js → givenData.js
                                                                                     ↓
 Response ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ← ←
 ```
@@ -277,7 +277,7 @@ Approximately 4 hours total
 
 This structure makes it easy to check:
 
-**Want to see the data?** → `src/data/seedData.js`  
+**Want to see the data?** → `src/data/givenData.js`  
 **Want to see calculations?** → `src/helpers.js`  
 **Want to see validations?** → `src/controllers/withdrawalsController.js`  
 **Want to see endpoints?** → `src/routes/`  
