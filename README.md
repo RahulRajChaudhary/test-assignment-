@@ -252,24 +252,7 @@ Visit: `https://your-app.onrender.com/authors`
 
 ## ⏱️ Time Spent
 
-Approximately 4 hours total
-
----
-
-## 🔍 Why Multiple Files is Better
-
-### **Single File** (400+ lines)
-❌ Hard to navigate  
-❌ Everything mixed together  
-❌ Difficult to debug  
-❌ Scary for beginners  
-
-### **Multiple Files** (50-150 lines each)
-✅ Easy to find things  
-✅ Each file has clear purpose  
-✅ Easy to debug - know where to look  
-✅ Professional structure  
-✅ **Much easier for evaluators to read!**
+Approximately 3 hours total
 
 ---
 
