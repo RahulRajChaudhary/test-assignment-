@@ -29,20 +29,20 @@ app.get('/', (req, res) => {
 app.use('/authors', authorsRoutes)
 app.use('/withdrawals', withdrawalsRoutes)
 
-// app.listen(PORT, () => {
-//   console.log('========================================');
-//   console.log('✅ Server is running!');
-//   console.log(`📍 URL: http://localhost:${PORT}`);
-//   console.log('========================================');
-//   console.log('');
-//   console.log('🧪 Quick test: Open your browser and visit:');
-//   console.log(`   http://localhost:${PORT}/authors`);
-//   console.log('');
-//   console.log('📊 Expected author balances:');
-//   console.log(`   Priya Sharma: ₹${calculateTotalEarnings(1)}`);
-//   console.log(`   Rahul Verma: ₹${calculateTotalEarnings(2)}`);
-//   console.log(`   Anita Desai: ₹${calculateTotalEarnings(3)}`);
-//   console.log('');
-//   console.log('❌ To stop the server: Press Ctrl+C');
-//   console.log('========================================');
-// });
+app.listen(PORT, () => {
+  console.log('========================================');
+  console.log('✅ Server is running!');
+  console.log(`📍 URL: http://localhost:${PORT}`);
+  console.log('========================================');
+  console.log('');
+  console.log('🧪 Quick test: Open your browser and visit:');
+  console.log(`   http://localhost:${PORT}/authors`);
+  console.log('');
+  console.log('📊 Expected author balances:');
+  console.log(`   Priya Sharma: ₹${calculateTotalEarnings(1)}`);
+  console.log(`   Rahul Verma: ₹${calculateTotalEarnings(2)}`);
+  console.log(`   Anita Desai: ₹${calculateTotalEarnings(3)}`);
+  console.log('');
+  console.log('❌ To stop the server: Press Ctrl+C');
+  console.log('========================================');
+});
